@@ -9,9 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "firebase": "^13.4.0",
+    "lucide-react": "^1.75.0",
     "next": "16.4.6",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",
@@ -22,5 +25,9 @@
     "eslint-config-next": "16.4.6",
     "tailwindcss": "4.3.3",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "@firebase/util@1.15.3": true,
+    "protobufjs@7.6.6": true
   }
 }
